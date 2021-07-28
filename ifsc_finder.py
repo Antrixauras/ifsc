@@ -36,7 +36,7 @@ def Bank_Data_Finder(IFSC_Code):
         print(e)
 
 def run():
-    img1 = Image.open('ifsc/bank.png')
+    img1 = Image.open('bank.png')
     img1 = img1.resize((156,145))
     st.image(img1,use_column_width=False)
     st.title("Bank IFSC Checker")
